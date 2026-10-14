@@ -69,6 +69,7 @@ run_pipeline.py        # 검출 → segment 중복 제거 → MNIST 전처리 �
 .gitignore
 mnistCUDNN.cpp         # cuDNN LeNet 추론부 (추론 시간 측정·cudnnFind 제거·워밍업 수정본)
 Makefile               # NVIDIA cuDNN 샘플 기반 빌드 파일
+eval_rule.py           # 저장된 PGM을 대비 보정 후 mnistCUDNN으로 분류, 정확도·추론 시간 집계
 ```
 
 `best.pt`, `*.bin` 가중치, 영상, `pgm_output/`은 커밋하지 않습니다.
