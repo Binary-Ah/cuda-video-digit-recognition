@@ -1,0 +1,34 @@
+# Weights
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Media and generated outputs
+*.mp4
+*.avi
+*.mov
+pgm_output/
+*.pgm
+frame_*.png
+crop_*.png
+pipeline_log.txt
+runs/
+
+# Build artifacts
+*.o
+*.so
+mnistCUDNN
+!mnistCUDNN.cpp
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
